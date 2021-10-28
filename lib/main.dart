@@ -90,9 +90,9 @@ class _State extends State<MyApp> {
                 Container(
                     height: 50,
                     padding: EdgeInsets.fromLTRB(10, 10, 10, 0),
-                    child: RaisedButton(
-                       textColor: Colors.white,
-                       color: Colors.black,
+                    child: ElevatedButton(
+                       //textColor: Colors.white,
+                       //color: Colors.black,
                       child: Text('Sign Up'),
                       onPressed: () {
                         final snackBar = SnackBar(
